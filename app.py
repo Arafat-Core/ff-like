@@ -233,8 +233,9 @@ def handle_requests():
 @app.route("/", methods=["GET"])
 def home():
     return jsonify({
-        "credits": "Dev By Flexbase",
-        "Telegram": "@Flexbaseu"
+        "credits": "Arafat",
+        "Facebook": "www.Facebook.com/arafatas602",
+        "telegram": "t.me/arafatas602"
     })
 if __name__ == '__main__':
     
